@@ -42,7 +42,7 @@ class Homepage extends StatelessWidget {
               currentAccountPicture: GestureDetector(
             child: CircleAvatar(
                   child: Text(
-                    "AM",
+                    "DR",
                     style: TextStyle(
                         color: Colors.pink,
                         fontSize: 20.0,
