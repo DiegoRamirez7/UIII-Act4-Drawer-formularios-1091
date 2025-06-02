@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/form_clientes.dart';
+import 'package:myapp/form_empleados.dart';
 import 'package:myapp/homepage.dart';
 
 void main() {
@@ -12,9 +14,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Homepage(),
+    home: HomePage(),
     routes: {
-     "/home": (context) => Homepage(),
+     "/home": (context) => HomePage(),
+      "/clientes": (context) => MyForm(),
+      "/empleados": (context) => FormEmpleados(),
+
+
     },
     );
   }
